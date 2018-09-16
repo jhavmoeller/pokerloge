@@ -24,7 +24,7 @@ module.exports = {
       routes.push({
         name: 'dynamic-routes',
         path: '*',
-        component: resolve(__dirname, 'pages/master.vue'),
+        component: resolve(__dirname, 'pages/index.vue'),
       });
     },
   },
