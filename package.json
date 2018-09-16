@@ -1,0 +1,92 @@
+{
+  "name": "Pokerloge",
+  "version": "1.0.0",
+  "description": "Nuxt.js project",
+  "author": "jha <jha@novicell.dk>",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "start": "nuxt build && nuxt start",
+    "precommit": "npm run lint:script && npm run test",
+    "lint:script": "eslint .eslintrc.js",
+    "test": "jest",
+    "test:watch": "npm run test -- --watch",
+    "sprites": "node sprite.js"
+  },
+  "engines": {
+    "node": "9.11.x",
+    "npm": "5.8.x"
+  },
+  "babel": {
+    "presets": [
+      [
+        "env",
+        {
+          "targets": {
+            "browsers": [
+              "last 2 versions",
+              "ie >= 11"
+            ],
+            "node": "current"
+          }
+        }
+      ],
+      "stage-2"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run precommit"
+    }
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.0.0-rc.3",
+    "@nuxtjs/axios": "5.3.1",
+    "@nuxtjs/component-cache": "1.1.2",
+    "@nuxtjs/proxy": "^1.2.4",
+    "@nuxtjs/pwa": "2.0.8",
+    "@vue/test-utils": "1.0.0-beta.20",
+    "async": "2.6.1",
+    "babel-preset-stage-2": "6.24.1",
+    "cross-env": "^5.0.1",
+    "lodash": "4.17.10",
+    "node-sass": "4.9.2",
+    "nuxt-edge": "^2.0.0-25552561.fceb30b",
+    "nuxt-sass-resources-loader": "2.0.2",
+    "nuxt-trailingslash-module": "^1.1.0",
+    "nuxt-validate": "^0.1.1",
+    "sass-loader": "7.0.3",
+    "source-map-support": "^0.4.15",
+    "svg4everybody": "^2.1.9"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "babel-jest": "23.0.1",
+    "babel-preset-env": "1.7.0",
+    "chalk": "2.4.1",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "12.1.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-friendly-formatter": "4.0.1",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-html": "^3.1.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jest": "^21.17.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "eslint-plugin-vue": "^4.5.0",
+    "glob": "^7.1.2",
+    "husky": "^1.0.0-rc.13",
+    "jest": "23.1.0",
+    "jest-runner-eslint": "0.6.0",
+    "jest-vue-preprocessor": "1.4.0",
+    "js-beautify": "1.7.5",
+    "minimist": "1.2.0",
+    "mkdirp": "^0.5.1",
+    "path": "^0.12.7",
+    "svg-sprite": "^1.4.0",
+    "vinyl": "^2.2.0"
+  }
+}

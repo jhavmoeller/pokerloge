@@ -1,0 +1,26 @@
+# dependencies
+node_modules
+
+# logs
+npm-debug.log
+
+# Nuxt build
+.nuxt
+
+# Nuxt generate
+dist
+static/sw.js
+
+# Backpack build
+build
+
+# Test
+coverage
+.idea/workspace.xml
+.idea/vcs.xml
+.idea/modules.xml
+.idea/misc.xml
+.idea/Frontend.iml
+.idea/inspectionProfiles/Project_Default.xml
+deploy/
+*.orig
