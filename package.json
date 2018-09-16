@@ -7,6 +7,7 @@
   "scripts": {
     "dev": "nuxt dev",
     "build": "nuxt build",
+    "generate": "nuxt generate",
     "start": "nuxt build && nuxt start",
     "precommit": "npm run lint:script && npm run test",
     "lint:script": "eslint .eslintrc.js",
