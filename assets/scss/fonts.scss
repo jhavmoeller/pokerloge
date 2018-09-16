@@ -1,0 +1,39 @@
+/* archivo-regular - latin */
+@font-face {
+  font-family: 'Archivo';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/archivo-v3-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Archivo Regular'), local('Archivo-Regular'),
+       url('/fonts/archivo-v3-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/fonts/archivo-v3-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/fonts/archivo-v3-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('/fonts/archivo-v3-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('/fonts/archivo-v3-latin-regular.svg#Archivo') format('svg'); /* Legacy iOS */
+}
+/* archivo-500 - latin */
+@font-face {
+  font-family: 'Archivo';
+  font-style: normal;
+  font-weight: 500;
+  src: url('/fonts/archivo-v3-latin-500.eot'); /* IE9 Compat Modes */
+  src: local('Archivo Medium'), local('Archivo-Medium'),
+       url('/fonts/archivo-v3-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/fonts/archivo-v3-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/fonts/archivo-v3-latin-500.woff') format('woff'), /* Modern Browsers */
+       url('/fonts/archivo-v3-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('/fonts/archivo-v3-latin-500.svg#Archivo') format('svg'); /* Legacy iOS */
+}
+/* archivo-700 - latin */
+@font-face {
+  font-family: 'Archivo';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/fonts/archivo-v3-latin-700.eot'); /* IE9 Compat Modes */
+  src: local('Archivo Bold'), local('Archivo-Bold'),
+       url('/fonts/archivo-v3-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/fonts/archivo-v3-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/fonts/archivo-v3-latin-700.woff') format('woff'), /* Modern Browsers */
+       url('/fonts/archivo-v3-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('/fonts/archivo-v3-latin-700.svg#Archivo') format('svg'); /* Legacy iOS */
+}

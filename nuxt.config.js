@@ -7,15 +7,22 @@ module.exports = {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Skagenfood' },
-      { hid: 'author', name: 'author', content: 'Skagenfood' },
-      { hid: 'apple-mobile-web-app-title', name: 'apple-mobile-web-app-title', content: 'Skagenfood' },
+      { hid: 'description', name: 'description', content: 'Pokerloge' },
+      { hid: 'author', name: 'author', content: 'Pokerloge' },
+      { hid: 'apple-mobile-web-app-title', name: 'apple-mobile-web-app-title', content: 'Pokerloge' },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       {
-        rel: 'preload', href: '/fonts/abril-fatface-v9-latin-ext_latin-regular.woff2', type: 'font/woff2', as: 'font', crossorigin: 'use-credentials',
+        rel: 'preload', href: '/fonts/archivo-v3-latin-500.woff2', type: 'font/woff2', as: 'font', crossorigin: 'use-credentials',
       },
+      {
+        rel: 'preload', href: '/fonts/archivo-v3-latin-700.woff2', type: 'font/woff2', as: 'font', crossorigin: 'use-credentials',
+      },
+      {
+        rel: 'preload', href: '/fonts/archivo-v3-latin-regular.woff2', type: 'font/woff2', as: 'font', crossorigin: 'use-credentials',
+      },
+
     ],
   },
   loading: { color: '#00344e' },
@@ -28,6 +35,10 @@ module.exports = {
       });
     },
   },
+  css: [
+    '@/node_modules/normalize.css/normalize.css',
+    '@/assets/scss/base.scss',
+  ],
   modules: [
     'nuxt-trailingslash-module',
     '@nuxtjs/pwa',

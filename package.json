@@ -53,6 +53,7 @@
     "cross-env": "^5.0.1",
     "lodash": "4.17.10",
     "node-sass": "4.9.2",
+    "normalize.css": "^8.0.0",
     "nuxt-edge": "^2.0.0-25552561.fceb30b",
     "nuxt-sass-resources-loader": "2.0.2",
     "nuxt-trailingslash-module": "^1.1.0",
