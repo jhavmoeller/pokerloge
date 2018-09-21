@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h1>Pokerloge</h1>
+    <img src="/images/chip.png" >
   </div>
 </template>
 
